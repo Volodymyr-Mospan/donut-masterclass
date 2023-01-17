@@ -1,13 +1,28 @@
-<header>
-  <div class="conainer">
+<header class="header">
+  <div class="container header__container">
     <a href="#"
-      ><img src="./img/logo.svg" alt="Logo of compani &#34;OH MY DONUT&#34;"
+      ><img
+        src="./img/logo.svg"
+        alt="Logo of compani &#34;OH MY DONUT&#34;"
+        width="108"
     /></a>
 
-    <nav>
+    <button class="button button__menu-burger" type="button">
+      <svg class="svg-menu-burger" width="30" height="30">
+        <use href="./img/icon-list.svg#icon-menu-burger"></use>
+      </svg>
+    </button>
+
+    <nav style="display: none">
       <a href="#"
         ><img src="./img/logo.svg" alt="Logo of compani &#34;OH MY DONUT&#34;"
       /></a>
+
+      <button type="button">
+        <svg width="30" height="16">
+          <use href="./img/icon-list.svg#icon-menu-close"></use>
+        </svg>
+      </button>
 
       <ul>
         <li>

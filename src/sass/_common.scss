@@ -5,10 +5,10 @@ body {
 
   background: linear-gradient(
     180.11deg,
-    #e5e2e3 10.73%,
-    #fdfefe 38.02%,
-    #e5e2e3 71.11%,
-    #fdfefe 99.91%
+    #fdfefe 2.73%,
+    #e5e2e3 28.02%,
+    #fdfefe 71.11%,
+    #e5e2e3 99.91%
   );
 
   color: var(--text-color);
@@ -43,8 +43,33 @@ img {
 }
 
 .container {
+  max-width: 479px;
+
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.title {
+  font-family: 'Montserrat Alternates';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.21;
+  text-align: center;
+}
+
+.sub-title {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
 }
